@@ -24,7 +24,7 @@ Totalmente offline, rápida e intuitiva — ideal para estudo, meditação e uso
 
 1. Clone ou baixe o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/verseapp.git
+   git clone https://github.com/Augustbr01/verseapp.git
 
 2. Abra o index.html no navegador:
 
