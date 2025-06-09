@@ -1,0 +1,284 @@
+body {
+  background-image: radial-gradient(#ffffff18, #1a1a1a);
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+main {
+  color: #d1d1d1;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  color: #ffd900;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-size: 40px;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+}
+
+section {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ffffff38;
+}
+
+#selecao {
+  height: 50%;
+  width: 100%;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+#livro-select {
+  padding: 10px;
+  margin: 10px 5px;
+  width: 70%;
+  max-width: 200px;
+  font-size: 1rem;
+  background: #222;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 50px;
+}
+
+#capitulo-select {
+  padding: 10px;
+  margin: 10px 5px;
+  width: 70%;
+  max-width: 200px;
+  font-size: 1rem;
+  background: #222;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 50px;
+}
+
+#versiculo-select {
+  padding: 10px;
+  margin: 10px 5px;
+  width: 70%;
+  max-width: 200px;
+  font-size: 1rem;
+  background: #222;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 50px;
+}
+
+#botao-select {
+  padding: 10px;
+  margin: 10px 5px;
+  width: 100px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #fff;
+  border: 1px solid #444;
+  background-color: #222;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  
+}
+
+.grupo-selects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#botao-select:hover {
+  padding: 10px;
+  margin: 10px 5px;
+  width: 100px;
+  font-size: 1rem;
+  background: #ffd900;
+  color: #222;
+  border: 1px solid #444;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#resultado {
+    margin-top: 40px;
+    font-family: "Rubik", sans-serif;
+    
+}
+
+#referencia {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: "Rubik", sans-serif;
+}
+
+#mais-btn {
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    background-color: #222;
+    color: #fff;
+    margin-bottom: 40px;
+    
+}
+
+#mais-versiculos {
+    border-top: 1px solid #ffffff38;
+    padding-top: 50px;
+}
+#mais-versiculos p {
+  
+    margin: 10px 0;
+
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.7s ease;
+}
+
+.fade-in.show {
+    opacity: 1;
+}
+
+@media (max-width: 480px) {
+
+  header {
+    font-size: 20px;
+    padding-bottom: 1rem;
+  }
+  .grupo-selects {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  #botao-select {
+    width: 70%;
+    max-width: 200px;
+    align-self: center;
+    margin-top: 10px;
+  }
+
+  #botao-select:hover {
+    width: 70%;
+    max-width: 200px;
+    align-self: center;
+    margin-top: 10px;
+  }
+}
