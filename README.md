@@ -3,6 +3,7 @@
 **VerseApp** is a minimalist web application for reading Bible verses.  
 Completely offline, fast, and intuitive — perfect for study, meditation, and personal use.
 
+**Note: Only the pt-BR language version is available for now.**
 ---
 
 ## 📸 Preview
