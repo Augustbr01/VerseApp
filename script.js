@@ -11,7 +11,7 @@ fetch('biblia.json')
 function popularLivros() {
   const livros = [...new Set(versiculos.map(v => v.livro))];
   const livroSelect = document.getElementById('livro-select');
-  livroSelect.innerHTML = `<option>Selecione o Livro</option>`;
+  livroSelect.innerHTML = `<option>Select the book</option>`;
   livros.forEach(livro => {
     const opt = document.createElement('option');
     opt.value = livro;
@@ -23,7 +23,7 @@ function popularLivros() {
     const livro = livroSelect.value;
     const capitulos = [...new Set(versiculos.filter(v => v.livro === livro).map(v => v.capitulo))];
     const capituloSelect = document.getElementById('capitulo-select');
-    capituloSelect.innerHTML = `<option>Capítulo</option>`;
+    capituloSelect.innerHTML = `<option>Chapter</option>`;
     capitulos.forEach(cap => {
       const opt = document.createElement('option');
       opt.value = cap;
@@ -35,7 +35,7 @@ function popularLivros() {
       const cap = capituloSelect.value;
       const vers = versiculos.filter(v => v.livro === livro && v.capitulo === cap).map(v => v.versiculo);
       const versiculoSelect = document.getElementById('versiculo-select');
-      versiculoSelect.innerHTML = `<option>Versículo</option>`;
+      versiculoSelect.innerHTML = `<option>Verse</option>`;
       vers.forEach(v => {
         const opt = document.createElement('option');
         opt.value = v;
@@ -53,7 +53,7 @@ function buscarVersiculo() {
 
   const resultado = versiculos.find(v => v.livro === livro && v.capitulo === cap && v.versiculo === vers);
   document.getElementById('referencia').textContent = `${livro} ${cap}:${vers}`;
-  document.getElementById('texto').textContent = resultado?.texto || 'Não encontrado';
+  document.getElementById('texto').textContent = resultado?.texto || 'Not Found';
 
   // Guardar todos os versículos do capítulo
   versiculosDoCapitulo = versiculos.filter(v => v.livro === livro && v.capitulo === cap);
@@ -103,4 +103,4 @@ function digitarTexto(frase, elementoId, velocidade = 60) {
     }, velocidade);
 }
 
-digitarTexto("Inspire-se. Fortaleça-se. Viva a Palavra.", "frase-impacto");
+digitarTexto("Be inspired. Be strengthened. Live the Word.", "frase-impacto");
