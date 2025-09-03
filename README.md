@@ -1,40 +1,37 @@
 # ✝️ VerseApp
 
-**VerseApp** é uma aplicação web minimalista para leitura de versículos bíblicos.  
-Totalmente offline, rápida e intuitiva — ideal para estudo, meditação e uso pessoal.
+**VerseApp** is a minimalist web application for reading Bible verses.  
+Completely offline, fast, and intuitive — perfect for study, meditation, and personal use.
 
 ---
 
 ## 📸 Preview
 
-![VerseApp Screenshot](screenshot.png) <!-- (adicione se quiser colocar uma imagem depois) -->
+![VerseApp Screenshot](screenshot.png) <!-- (add an image later if you want) -->
 
 ---
 
-## 🚀 Funcionalidades
+## 🚀 Features
 
-- 📖 Seleção de **livro**, **capítulo** e **versículo**
-- 🎯 Exibição do versículo selecionado
-- ➕ Botão “**Ver mais versículos**” que continua a leitura do capítulo
-- 🔍 Layout **responsivo** para celular e desktop
-- ⚡ Totalmente **offline** (sem dependência de API externa)
+- 📖 Select **book**, **chapter**, and **verse**  
+- 🎯 Display the selected verse  
+- ➕ “**View more verses**” button to continue reading the chapter  
+- 🔍 **Responsive** layout for mobile and desktop  
+- ⚡ Fully **offline** (no external API dependency)  
 
 ---
-## 🔧 Como usar
 
-1. Clone ou baixe o repositório:
+## 🔧 How to Use
+
+1. Clone or download the repository:  
    ```bash
    git clone https://github.com/Augustbr01/verseapp.git
+2. Open index.html in your browser:
 
-2. Abra o index.html no navegador:
+3. Runs directly in the browser
 
-  - Não precisa instalar nada
+4. Done! Just choose a verse and start reading 📖✨
 
-  - Funciona direto no navegador
+## 💡 Requirements
 
-3. Pronto! Basta escolher o versículo e começar a leitura 📖✨
-
-💡 Requisitos
-
- - Nenhum. Apenas um navegador moderno.
-
+None. Just a modern browser.
